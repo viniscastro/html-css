@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif; /* safe combination */
+
+            /*
+            Medidas absolutas: cm, mm, in, px, pt, pc
+            Medidas relativas: em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+
+            font-size:  16px; /* tamanho base */
+
+            /*font-weight: normal;
+            lighter, normal, bold e bolder
+            font-style: normal;
+            text-decoration: underline;*/
+        }
+
+        h1 {
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'Work sans', sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            font-size: 3em;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum minima nulla, eius reprehenderit quo sunt voluptatum quasi, itaque iure ab perferendis nisi deleniti suscipit ipsam repudiandae minus error necessitatibus illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, numquam nostrum dolorum illo dignissimos quo itaque facilis obcaecati sint earum dolorem vero temporibus minus officia. Qui quidem sunt perspiciatis aspernatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, deserunt at praesentium architecto aspernatur voluptas nulla, debitis fuga qui sint inventore ad voluptatum, fugit iste quis ipsam reprehenderit error blanditiis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores eligendi cumque aperiam architecto repudiandae dignissimos veniam adipisci consequatur deserunt debitis accusamus aliquam, impedit quidem omnis, ipsa dolorum magni quia dicta.</p>
+</body>
+</html>

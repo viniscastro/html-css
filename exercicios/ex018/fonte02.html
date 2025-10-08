@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Filxgirl'; /* nome da fonte */
+            src: url(fonts/Filxgirl.TTF) format('truetype'); /* checar compatibilidade do navegador */
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                tipos de format ()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype (eot)
+                - truetype-aat (Apple Advanced Typography)
+                - svg (svg)
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        h1 {
+            font-family: 'Filxgirl', cursive;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, nihil, tempore provident delectus ullam laboriosam corporis, facilis itaque accusantium quis minus a? Minima, velit obcaecati tempore illo hic labore odio?</p>
+</body>
+</html>
